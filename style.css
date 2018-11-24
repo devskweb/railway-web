@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:arial;
+}
+body{ background-size:1200px 800px;
+		   background-image:url('img2.jpg');}
+  #container{
+	  width: 1200px; 
+	  margin: 0 auto;
+	   border: 1px solid;
+		  }
+    #header1{
+		background-size:50% 100%;
+		   background-image:url('img1.jpg');
+		width: 1200px;
+		height: 150px;
+	   float:top;
+	   
+	} 
+	#header1 h1{
+	   margin:15px;
+	    float:center;
+		padding:60px  0px;
+		
+		text-decoration:auto;	}
+	   h1 a {
+		 text-decoration:none;
+		 color:silver;
+	 }
+
+	#nav{
+		background: black;
+		width: 1200px;
+		height: 50px;
+		
+	}   #nav li{
+		
+	      float: left;
+		  color: white;
+		  padding: 16px 30px; 
+		  width:240px ;
+		  text-align: center;
+		  list-style-type: none;
+		 overflow: hidden;
+		  }
+		#nav li:hover{
+			
+           background: white;
+			color:blue;	
+			font:bold;
+		}		
+             h3 a{text-decoration:none;}		
+	#content{
+		
+		width: 1200px;	
+	}
+	   .left-side{
+		   background-size:800px 400px;
+		   background-image:url('img3.jpg');
+		 
+		   width: 800px;
+		   height: 400px;
+		   float: left;
+	   }
+	   
+	   .right-side{
+		
+		   width: 350px;
+		   height: 370px;
+		   float: right;
+		   padding: 15px;
+	   }
+	      .right-side h2{
+		      font-family:arial;
+			
+		       width:300px;
+		       padding: 0px 0px;
+		       text-align:center;
+			   text-decoration:underline; 
+			   
+	        }
+			.lst_upd {
+				padding:10px;
+				background:black;
+				color:white;
+				margin: 10px 0px;
+				text-align:center;
+			}
+			.lst_upd:hover{
+           background: white;
+            color: black;
+			border: 2px solid black;
+		}
+         .footer
+            { 
+			background:green;
+               width:1200px;
+              height:150px;
+			  margin:0px 75px;
+               }
+		  .left-foot{
+				   float:left;
+				   padding: 0px 40px;
+			   }
+			   .left-foot th{ font-size:auto;
+                          
+                            text-align:center;	
+							padding: 15px 15px;
+							}
+				.left-foot  td{ font-size:auto;
+							   text-align:center;
+							   }
+				  td a {
+				  text-decoration:none;
+				  color:voilet;}
+				
+		  .right-foot{ 
+		  float :right;
+		  color: "#E9EBEE";
+		  width: 330px;
+		  height:150px;
+		  
+		  list-style-type: none;
+		 overflow: hidden;}
+		 .right-foot:hover{
+           background: gray;
+            color: black;
+			border: 2px solid black;
+		}
+		h6 a {
+		text-decoration:none;}
+				
+	#copyright{   text-align:center;
+				  background: brown;
+		           width: 1200px;
+		           height: 20px;
+			margin:0px 75px;
+			}				
